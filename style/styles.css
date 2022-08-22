@@ -3,3 +3,7 @@ body
     color: #FF5E19;
     font-size: 60px;
 }
+.selected{
+    text-decoration: underline;
+    color: aliceblue;
+}
