@@ -18,12 +18,7 @@ function display(playerSelect){
 
 function playerList(element){
     const playerName = element.parentNode.children[1].innerText;
-
     element.disabled = true;
-    if(playerName.length > 5){
-        alert('you cannot select more than players')
-        return alert;
-    }
     const playerObject = {
         playerName : playerName,
     }

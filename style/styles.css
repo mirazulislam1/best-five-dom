@@ -1,7 +1,8 @@
-body
 .head-color{
+    font-family:Brush Script MT;
     color: #FF5E19;
     font-size: 60px;
+    
 }
 .selected{
     text-decoration: underline;
